@@ -9,7 +9,9 @@ Interestingly, this heuristic is basically non-parametric and does not require m
 We therefore use this fact to design a stopping condition for our heuristic, which indicates that the optimal clustering has been reached. Such results call for further theoretical research regarding the convexity of the DBCV values as the algorithm iterates. In some cases however, such stopping rule causes the algorithm to terminate too early or too late, and to return a sub-optimal clustering, and further work is needed to design a better stopping order.
 
 The file "Non parametric Density Based Clustering Heuristic.pdf" describes our approach and walk through the heuristic step by step
+
 The script "Clustering_heuristic.py" implements the heuristic on 2-dimensional synthetic data
+
 The script "DBCV_computation.py" computes the Density-Based Clustering Validation of a given clustering (used in "Clustering_heuristic.py")
 
 (1)
