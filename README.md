@@ -8,11 +8,10 @@ Though the DBCV allows to accurately rate a given clustering solution, it does n
 Interestingly, this heuristic is basically non-parametric and does not require making any of the usual clustering assumption about the data (e.g. number of clusters). Empirically, when the data is not too complex, the clustering obtained at the very iteration of the algorithm at which the DBCV is maximized often matches the ground truth clustering used to generate the data.
 We therefore use this fact to design a stopping condition for our heuristic, which indicates that the optimal clustering has been reached. Such results call for further theoretical research regarding the convexity of the DBCV values as the algorithm iterates. In some cases however, such stopping rule causes the algorithm to terminate too early or too late, and to return a sub-optimal clustering, and further work is needed to design a better stopping order.
 
-The file "Non parametric Density Based Clustering Heuristic.pdf" describes our approach and walk through the heuristic step by step
-
-The script "Clustering_heuristic.py" implements the heuristic on 2-dimensional synthetic data
-
-The script "DBCV_computation.py" computes the Density-Based Clustering Validation of a given clustering (used in "Clustering_heuristic.py")
+-The file "Density-Based Clustering Validation" is the paper by Davoud Moulavi Et al(1)
+-The file "Non parametric Density Based Clustering Heuristic.pdf" describes our approach and walk through the heuristic step by step
+-The script "Clustering_heuristic.py" implements the heuristic on 2-dimensional synthetic data
+-The script "DBCV_computation.py" computes the Density-Based Clustering Validation of a given clustering (used in "Clustering_heuristic.py")
 
 (1)
 Davoud Moulavi, Pablo A. Jaskowiak, Ricardo J. G. B. Campello, Arthur Zimekz, Jorg Sander.
