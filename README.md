@@ -1,7 +1,5 @@
 # Non-Parametric Density Based Clustering Heuristic
 
-
-
 ## Introduction 
 
 The Density-Based Clustering Validation (DBCV), as developed by Davoud Moulavi Et al(1) in this [paper](http://epubs.siam.org/doi/pdf/10.1137/1.9781611973440.96), provides a good way of measuring the quality of a clustering, based on within-cluster density and between-cluster density connectedness. Through a newly defined kernel density function, such index efficiently assesses the quality of a given clustering.
@@ -13,8 +11,7 @@ We therefore use this fact to design a stopping condition for our heuristic, whi
 
 ## Files
 
-* [Density-Based Clustering Validation.pdf](Density Based Clustering Validation.pdf): the paper by Davoud Moulavi Et al(1)
-* [Non parametric Density Based Clustering Heuristic.pdf](Non parametric Density Based Clustering Heuristic.pdf): describes our approach and walk through the heuristic
+* [Non parametric Density Based Clustering Heuristic.pdf](https://github.com/VinceFab/DBCV/blob/master/Non%20parametric%20Density%20Based%20Clustering%20Heuristic.pdf): describes our approach and walk through the heuristic
 * [Clustering_heuristic.py](Clustering_heuristic.py): python implementation of the heuristic on 2-dimensional synthetic data
 * [DBCV_computation.py](DBCV_computation.py): python script to compute the DBCV of a given clustering
 
@@ -23,4 +20,4 @@ We therefore use this fact to design a stopping condition for our heuristic, whi
 ## Citation
 * (1) Davoud Moulavi, Pablo A. Jaskowiak, Ricardo J. G. B. Campello, Arthur Zimekz, Jorg Sander.
 "Density-Based Clustering Validation" 
-textit{SIAM} - 2014 | [PDF](http://epubs.siam.org/doi/pdf/10.1137/1.9781611973440.96)
+textit{SIAM} - 2014 | [paper](http://epubs.siam.org/doi/pdf/10.1137/1.9781611973440.96)
