@@ -13,7 +13,7 @@ We therefore use this fact to design a stopping condition for our heuristic, whi
 
 ## Files
 
-* [Density-Based Clustering Validation.pdf](Density-Based Clustering Validation.pdf): the paper by Davoud Moulavi Et al(1)
+* [Density-Based Clustering Validation.pdf](Density Based Clustering Validation.pdf): the paper by Davoud Moulavi Et al(1)
 * [Non parametric Density Based Clustering Heuristic.pdf](Non parametric Density Based Clustering Heuristic.pdf): describes our approach and walk through the heuristic
 * [Clustering_heuristic.py](Clustering_heuristic.py): python implementation of the heuristic on 2-dimensional synthetic data
 * [DBCV_computation.py](DBCV_computation.py): python script to compute the DBCV of a given clustering
