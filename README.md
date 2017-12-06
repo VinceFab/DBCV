@@ -4,7 +4,7 @@
 
 ## Introduction 
 
-The Density-Based Clustering Validation (DBCV), as developed by Davoud Moulavi Et al(1) [PDF](http://epubs.siam.org/doi/pdf/10.1137/1.9781611973440.96), provides a good way of measuring the quality of a clustering, based on within-cluster density and between-cluster density connectedness. Through a newly defined kernel density function, such index efficiently assesses the quality of a given clustering.
+The Density-Based Clustering Validation (DBCV), as developed by Davoud Moulavi Et al(1) in this [paper](http://epubs.siam.org/doi/pdf/10.1137/1.9781611973440.96), provides a good way of measuring the quality of a clustering, based on within-cluster density and between-cluster density connectedness. Through a newly defined kernel density function, such index efficiently assesses the quality of a given clustering.
 
 Though the DBCV allows to accurately rate a given clustering solution, it does not provide an algorithm allowing to find such a clustering. In this short research project, we present a simple clustering heuristic, inspired from the DBCV methodology, that relies on the density sparseness inside a given cluster as well as the separation between distinct clusters, in the mutual reachability space.
 
