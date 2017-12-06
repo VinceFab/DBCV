@@ -1,17 +1,9 @@
-# DBCV
-
-
-
-
+# Non-Parametric Density Based Clustering Heuristic
 
 (1)
 Davoud Moulavi, Pablo A. Jaskowiak, Ricardo J. G. B. Campello, Arthur Zimekz, Jorg Sander.
 "Density-Based Clustering Validation" 
 textit{SIAM} - 2014
-
-# Project Title
-
-Non-Parametric Density Based Clustering Heuristic
 
 ## Introduction 
 
@@ -24,10 +16,10 @@ We therefore use this fact to design a stopping condition for our heuristic, whi
 
 ### Prerequisites
 
-*"Density-Based Clustering Validation" is the paper by Davoud Moulavi Et al(1)
-*"Non parametric Density Based Clustering Heuristic.pdf" describes our approach and walk through the heuristic step by step
-*"Clustering_heuristic.py" implements the heuristic on 2-dimensional synthetic data
-*"DBCV_computation.py" computes the Density-Based Clustering Validation of a given clustering (used in "Clustering_heuristic.py")
+* "Density-Based Clustering Validation" is the paper by Davoud Moulavi Et al(1)
+* "Non parametric Density Based Clustering Heuristic.pdf" describes our approach and walk through the heuristic step by step
+* "Clustering_heuristic.py" implements the heuristic on 2-dimensional synthetic data
+* "DBCV_computation.py" computes the Density-Based Clustering Validation of a given clustering (used in "Clustering_heuristic.py")
 
 ```
 Give examples
