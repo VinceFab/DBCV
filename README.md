@@ -1,9 +1,6 @@
 # Non-Parametric Density Based Clustering Heuristic
 
-(1)
-Davoud Moulavi, Pablo A. Jaskowiak, Ricardo J. G. B. Campello, Arthur Zimekz, Jorg Sander.
-"Density-Based Clustering Validation" 
-textit{SIAM} - 2014
+
 
 ## Introduction 
 
@@ -22,4 +19,7 @@ We therefore use this fact to design a stopping condition for our heuristic, whi
 * DBCV_computation.py: python script to compute the DBCV of a given clustering
 
 
-
+## Citation
+* (1) Davoud Moulavi, Pablo A. Jaskowiak, Ricardo J. G. B. Campello, Arthur Zimekz, Jorg Sander.
+"Density-Based Clustering Validation" 
+textit{SIAM} - 2014
