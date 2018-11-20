@@ -1,5 +1,3 @@
-#test
-
 """
 @author: Vincent Faber
 
